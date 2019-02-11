@@ -1,0 +1,23 @@
+{
+  "name": "TDD_Workshop",
+  "version": "1.0.0",
+  "main": "theBar.js",
+  "repository": "https://github.com/mp40/TDD_Workshop.git",
+  "author": "mp40 <philps.matthew@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint --fix . && mocha ./tests/**/*spec.js"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
